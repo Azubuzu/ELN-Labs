@@ -1,0 +1,64 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000002, hour=000000000009, min=000000000012, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001481, lin=000000000044, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=56
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=57
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=28)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=26, Instance=\'\', Solution=25, VersionID=56)'='SolutionBlock8'
+	'SolutionKey(SimSetup=26, Instance=\'SetupDefinition\', Solution=-1, VersionID=56)'='SolutionBlock9'
+	'SolutionKey(SimSetup=26, Instance=\'SolutionDefinition\', Solution=25, VersionID=56)'='SolutionBlock10'
+$end 'BlockMapName'
+$begin 'SolutionBlock10'
+	SolutionName='Capacitor_0805'
+	SolutionID=25
+	V=56
+	$begin 'States'
+		F(VID=28, Ver=56)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock10'
+$begin 'SolutionBlock9'
+	SimSetupID=26
+	SimSetupName='Capacitor_0805'
+	VersionID=56
+	DefaultSol=25
+$end 'SolutionBlock9'
+$begin 'SolutionBlock8'
+	VariationDataID=-1
+	File='DV28_S25_V56.cir'
+$end 'SolutionBlock8'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock8(pos=1390, lin=40, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=619, lin=13, lvl=0)
+		SolutionBlock10(pos=985, lin=19, lvl=0)
+		SolutionBlock9(pos=1269, lin=34, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1481, lin=44, lvl=0)
+	$end '$index$'
+$end '$index$'

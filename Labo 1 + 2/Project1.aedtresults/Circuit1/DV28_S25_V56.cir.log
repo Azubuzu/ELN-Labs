@@ -1,0 +1,17 @@
+(status): Nexxim version: 2017.1.0 WIN64, build time: Apr 13 2017, 11:14:32
+
+circuit_details(trace): Total device types: 4 
+
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         1
+inductor                                          1
+port_impedance                                    2
+resistor                                          1
+analysis:dc(status): Trying DC conv=1
+analysis:dc(status): Total DC newton iterations = 4
+(status): LNA cpu_time = 0.005
+(status): LNA clock_time = 0.00506651
+(status): Start Time:  03/02/2018 09:00:04, Host WEA20307, Nexxim Version 2017.1.0
+(status): Total 0:00:00   End Time:  03/02/2018 09:00:05
+(status): Simulation succeeded

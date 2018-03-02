@@ -1,0 +1,16 @@
+(status): Nexxim version: 2017.1.0 WIN64, build time: Apr 13 2017, 11:14:32
+
+circuit_details(trace): Total device types: 2 
+
+device type                                       number of devices
+----------------------------------------------------------------------
+port_impedance                                    2
+s_element                                         1
+models:s_element(warning): s47 - Passivity violation: worst value 1.05483 at frequency 1e+009.
+analysis:dc(status): Trying DC conv=1
+analysis:dc(status): Total DC newton iterations = 4
+(status): LNA cpu_time = 0.03
+(status): LNA clock_time = 0.0303734
+(status): Start Time:  03/02/2018 11:00:20, Host WEA20307, Nexxim Version 2017.1.0
+(status): Total 0:00:00   End Time:  03/02/2018 11:00:20
+(status): Simulation succeeded

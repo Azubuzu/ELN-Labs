@@ -1,0 +1,54 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000002, hour=000000000009, min=000000000018, sec=000000000034)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001210, lin=000000000035, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Capacitor_0603'
+	VersionID=9
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=17
+	MoveBackwards=false
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=13, Instance=\'SetupDefinition\', Solution=-1, VersionID=16)'='SolutionBlock3'
+	'SolutionKey(SimSetup=13, Instance=\'SolutionDefinition\', Solution=12, VersionID=16)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='Cap_0603'
+	SolutionID=12
+	V=16
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SimSetupID=13
+	SimSetupName='Cap_0603'
+	VersionID=16
+	DefaultSol=12
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1095, lin=29, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=561, lin=10, lvl=0)
+		SolutionBlock2(pos=839, lin=15, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1210, lin=35, lvl=0)
+	$end '$index$'
+$end '$index$'

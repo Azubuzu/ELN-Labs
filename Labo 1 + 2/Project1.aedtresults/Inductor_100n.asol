@@ -1,0 +1,82 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000002, hour=000000000009, min=000000000018, sec=000000000034)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001704, lin=000000000060, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Inductor_100n'
+	VersionID=12
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=13
+	MoveBackwards=false
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=11, Instance=\'SetupDefinition\', Solution=-1, VersionID=12)'='SolutionBlock5'
+	'SolutionKey(SimSetup=11, Instance=\'SolutionDefinition\', Solution=10, VersionID=12)'='SolutionBlock4'
+$end 'BlockMapName'
+$begin 'SolutionBlock4'
+	SolutionName='Ind_100'
+	SolutionID=10
+	V=12
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=11
+	SimSetupName='Ind_100'
+	VersionID=12
+	DefaultSol=10
+$end 'SolutionBlock5'
+$begin 'SolutionBlock10'
+	SolutionName='Capacitor_0805'
+	SolutionID=25
+	V=56
+	$begin 'States'
+		F(VID=28, Ver=56)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock10'
+$begin 'SolutionBlock9'
+	SimSetupID=26
+	SimSetupName='Capacitor_0805'
+	VersionID=56
+	DefaultSol=25
+$end 'SolutionBlock9'
+$begin 'SolutionBlock8'
+	VariationDataID=-1
+	File='DV28_S25_V56.cir'
+$end 'SolutionBlock8'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock8(pos=1613, lin=56, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=561, lin=10, lvl=0)
+		SolutionBlock4(pos=839, lin=15, lvl=0)
+		SolutionBlock5(pos=1094, lin=29, lvl=0)
+		SolutionBlock10(pos=1208, lin=35, lvl=0)
+		SolutionBlock9(pos=1492, lin=50, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1704, lin=60, lvl=0)
+	$end '$index$'
+$end '$index$'

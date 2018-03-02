@@ -1,0 +1,54 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000003, day=000000000002, hour=000000000009, min=000000000012, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000001201, lin=000000000035, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit2'
+	VersionID=10
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=13
+	MoveBackwards=false
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=12, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=12, Instance=\'SolutionDefinition\', Solution=11, VersionID=0)'='SolutionBlock2'
+$end 'BlockMapName'
+$begin 'SolutionBlock2'
+	SolutionName='Inductor'
+	SolutionID=11
+	V=0
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock2'
+$begin 'SolutionBlock3'
+	SimSetupID=12
+	SimSetupName='Inductor'
+	VersionID=0
+	DefaultSol=11
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock3(pos=1087, lin=29, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=556, lin=10, lvl=0)
+		SolutionBlock2(pos=832, lin=15, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=1201, lin=35, lvl=0)
+	$end '$index$'
+$end '$index$'
