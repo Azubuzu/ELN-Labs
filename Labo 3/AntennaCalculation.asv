@@ -1,0 +1,5 @@
+W = c/(2*fr)/sqrt((eps_r+1)/2)
+eps_eff = (eps_r+1)/2 + (eps_r-1)/2/sqrt(1+(12*h)/W);
+delta_l = 0.412 * h * ((eps_eff + 0.3)/(eps_eff - 0.258))*(W/h+0.264)/(W/h+0.8);
+Leff = c/(2*fr*sqrt(eps_eff));
+L = l
