@@ -1,7 +1,0 @@
-MeshFile='Boundary.mesh'
-$begin 'Frequencies'
-	$begin 'BND_FS1.freq'
-		Frequency=5000000000
-		FreqDir=''
-	$end 'BND_FS1.freq'
-$end 'Frequencies'
