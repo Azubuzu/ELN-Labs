@@ -1,0 +1,26 @@
+(status): Nexxim version: 2017.1.0 WIN64, build time: Apr 13 2017, 11:14:32
+
+circuit_details(trace): Total device types: 4 
+
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         1
+impedance                                         2
+port_impedance                                    3
+trl_e                                             2
+models:w_element(status): a17.w - Building frequency-domain model
+models:w_element(status): a17.w - Finished building frequency-domain model
+models:w_element(status): a20.w - Building frequency-domain model
+models:w_element(status): a20.w - Finished building frequency-domain model
+diagnostics(warning): Only one connection for node unconnected0.
+analysis:dc(status): Trying DC conv=1
+analysis:dc(status): Total DC newton iterations = 4
+analysis:small_signal(status): Detected floating nodes. Changing beta...
+analysis:small_signal(status): Setting beta to 1e-012. The default is 0. Use .option small_signal.beta=value to change to value
+analysis:small_signal(status): Detected floating nodes. Changing beta...
+analysis:small_signal(status): Setting beta to 1e-012. The default is 0. Use .option small_signal.beta=value to change to value
+(status): LNA cpu_time = 0.042
+(status): LNA clock_time = 0.0420118
+(status): Start Time:  03/23/2018 11:25:46, Host WEA20301, Nexxim Version 2017.1.0
+(status): Total 0:00:00   End Time:  03/23/2018 11:25:46
+(status): Simulation succeeded
