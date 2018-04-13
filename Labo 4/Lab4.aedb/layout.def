@@ -1,0 +1,8 @@
+DEFINE layout1 layout1
+ASSIGN layout1 libMode shared
+DEFINE layout3 layout3
+ASSIGN layout3 libMode shared
+DEFINE layout4 layout4
+ASSIGN layout4 libMode shared
+DEFINE layout5 layout5
+ASSIGN layout5 libMode shared

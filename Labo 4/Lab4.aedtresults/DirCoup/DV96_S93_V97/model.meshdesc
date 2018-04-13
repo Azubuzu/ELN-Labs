@@ -1,0 +1,87 @@
+$begin 'Header'
+	Version=16
+$end 'Header'
+$begin 'MeshBodies'
+	$begin 'Bodies'
+		$begin 'MeshBody'
+			Id=1
+			Nam='airbox'
+			Mat='air'
+			Diel=true
+			Type='Airbox'
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=2
+			Nam='FR5'
+			Mat='FR4_epoxy'
+			Layer='FR5'
+			Diel=true
+			Thickness=-1.0000000000000000e+000
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=3
+			Nam='GND'
+			Mat='copper'
+			Layer='GND'
+			Sheet=true
+			Gnd=true
+			Priority=1
+			Thickness=1.7499999999999998e-005
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=8
+			Nam='Port#Port1'
+			Mat='pec'
+			DesNam='Port1'
+			Sheet=true
+			Type='Port'
+			Priority=1
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=9
+			Nam='Port#Port2'
+			Mat='pec'
+			DesNam='Port2'
+			Sheet=true
+			Type='Port'
+			Priority=1
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=10
+			Nam='Port#Port3'
+			Mat='pec'
+			DesNam='Port3'
+			Sheet=true
+			Type='Port'
+			Priority=1
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=11
+			Nam='Port#Port4'
+			Mat='pec'
+			DesNam='Port4'
+			Sheet=true
+			Type='Port'
+			Priority=1
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=12
+			Nam='Signal'
+			Mat='copper'
+			Layer='Signal'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-005
+		$end 'MeshBody'
+		$begin 'MeshBody'
+			Id=15
+			Nam='Signal#L1'
+			Mat='copper'
+			DesNam='Signal'
+			Layer='Signal'
+			Sheet=true
+			Priority=1
+			Thickness=1.7499999999999998e-005
+		$end 'MeshBody'
+	$end 'Bodies'
+$end 'MeshBodies'

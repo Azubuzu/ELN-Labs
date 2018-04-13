@@ -1,0 +1,33 @@
+$begin 'MeshPortMap'
+	MajorVersionID=-1
+	MinorVersionID=-1
+	TerminalIDs(Port1=16, 'Port1#ref'=4, Port2=17, 'Port2#ref'=5, Port3=13, 'Port3#ref'=6, Port4=14, 'Port4#ref'=7)
+	$begin 'Terminals'
+		$begin 'Port1'
+			Points[6: 0, -0.000701, 0, -0.000506523, -0.000701, 0]
+		$end 'Port1'
+		$begin 'Port1#ref'
+			Points[6: 0, -0.000701, 0.0015, -0.000506523, -0.000701, 0.0015]
+		$end 'Port1#ref'
+		$begin 'Port2'
+			Points[6: 0.01724, -0.0006775, 0, 0.0177465, -0.0006775, 0]
+		$end 'Port2'
+		$begin 'Port2#ref'
+			Points[6: 0.01724, -0.0006775, 0.0015, 0.0177465, -0.0006775, 0.0015]
+		$end 'Port2#ref'
+		$begin 'Port3'
+			Points[6: 0, 0.0006775, 0, -0.000506523, 0.0006775, 0]
+		$end 'Port3'
+		$begin 'Port3#ref'
+			Points[6: 0, 0.0006775, 0.0015, -0.000506523, 0.0006775, 0.0015]
+		$end 'Port3#ref'
+		$begin 'Port4'
+			Points[6: 0.01724, 0.0006775, 0, 0.0177465, 0.0006775, 0]
+		$end 'Port4'
+		$begin 'Port4#ref'
+			Points[6: 0.01724, 0.0006775, 0.0015, 0.0177465, 0.0006775, 0.0015]
+		$end 'Port4#ref'
+	$end 'Terminals'
+	$begin 'Q3dPortMap'
+	$end 'Q3dPortMap'
+$end 'MeshPortMap'
