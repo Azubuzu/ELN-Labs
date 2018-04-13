@@ -1,0 +1,20 @@
+DEFINE footprint0 footprint0
+ASSIGN footprint0 libMode shared
+DEFINE footprint1 footprint1
+ASSIGN footprint1 libMode shared
+DEFINE footprint10 footprint10
+ASSIGN footprint10 libMode shared
+DEFINE footprint11 footprint11
+ASSIGN footprint11 libMode shared
+DEFINE footprint2 footprint2
+ASSIGN footprint2 libMode shared
+DEFINE footprint3 footprint3
+ASSIGN footprint3 libMode shared
+DEFINE footprint5 footprint5
+ASSIGN footprint5 libMode shared
+DEFINE footprint6 footprint6
+ASSIGN footprint6 libMode shared
+DEFINE footprint8 footprint8
+ASSIGN footprint8 libMode shared
+DEFINE footprint9 footprint9
+ASSIGN footprint9 libMode shared

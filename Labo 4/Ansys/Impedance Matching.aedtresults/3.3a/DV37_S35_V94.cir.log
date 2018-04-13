@@ -1,0 +1,23 @@
+(status): Nexxim version: 2017.1.0 WIN64, build time: Apr 13 2017, 11:14:32
+
+circuit_details(trace): Total device types: 4 
+
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         2
+impedance                                         2
+inductor                                          2
+port_impedance                                    2
+diagnostics(warning): No DC path to ground from node unconnected1.
+diagnostics(warning): Only one connection for node unconnected1.
+analysis:dc(status): Trying DC conv=1
+analysis:dc(status): Total DC newton iterations = 4
+analysis:small_signal(status): Detected floating nodes. Changing beta...
+analysis:small_signal(status): Setting beta to 1e-012. The default is 0. Use .option small_signal.beta=value to change to value
+analysis:small_signal(status): Detected floating nodes. Changing beta...
+analysis:small_signal(status): Setting beta to 1e-012. The default is 0. Use .option small_signal.beta=value to change to value
+(status): LNA cpu_time = 0.018
+(status): LNA clock_time = 0.0181608
+(status): Start Time:  03/23/2018 09:44:11, Host WEA20301, Nexxim Version 2017.1.0
+(status): Total 0:00:00   End Time:  03/23/2018 09:44:12
+(status): Simulation succeeded
